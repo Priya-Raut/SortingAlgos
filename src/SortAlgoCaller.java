@@ -1,4 +1,5 @@
 import com.sortingalgos.BubbleSort;
+import com.sortingalgos.SelectionSort;
 
 public class SortAlgoCaller {
     public static void main(String[] args) {
@@ -10,5 +11,6 @@ public class SortAlgoCaller {
         int[] arr5 = new int[]{3, 1};
         int[] arr6 = new int[]{1, 3};
         BubbleSort.sortWithBubbleSortAlgo(arr);
+        SelectionSort.sortWithSelectionSortAlgo(arr);
     }
 }
