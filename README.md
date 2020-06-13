@@ -33,8 +33,10 @@ O(n^2)
 
 ### 3. Insertion Sort
 ##### Intuition: 
+**Insert a new element at an appropriate place in the section of already sorted elements.** Image you are holding some playing cards which are already sorted. Now imagine taking out a card from a deck of playing cards. Put it in appropriate place in the cards in your hands.
 
 ##### Time Complexity: 
+O(n^2)
 
 ### 4. Merge Sort
 ##### Intuition: 
