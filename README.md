@@ -12,18 +12,24 @@
 9. Radix Sort
 10. Bucket Sort
 
+Note: We will see sorting algorthmes to sort in ascending order.
+
 ### 1. Bubble Sort
 ##### Intuition: 
-Bubble the elements to sort them in an ascending or descending order.
-Compare two elements. Bubble the largest of the two towards the end of the array to sort in ascending order.
+**Bubble the largest of the two elements towards the end of the array.** 
+Repeat the bubbling process for all the elements.
+Decrement the pointer to the end of the array by one and start over. Stop when end pointer is at first element.
 
 ##### Time Complexity: 
 O(n^2)
 
 ### 2. Selection Sort
-##### Intuition: 
+##### Intuition:
+**Select the smallest element in the array and move it to start of the array.**
+Increment the pointer to the start of array by one and start over. Stop when start pointer is at last element.
 
 ##### Time Complexity: 
+O(n^2)
 
 ### 3. Insertion Sort
 ##### Intuition: 
