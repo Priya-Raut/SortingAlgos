@@ -53,10 +53,17 @@ O(n^2)
 ##### Intuition: 
 
 ##### Time Complexity: 
+
 ### 5. Quick Sort
 ##### Intuition: 
+**Quick sort revolved around finding a pivot and balancing lesser elements to left side and greater elements to right side.**
+We sort in two phases: 
+1. partition : find the pivote, 
+2. sort: sort left side of pivot and sort right side of pivot (recursively).
+As the name pivot suggests, the pivot's position remains fixed after every call to partition.
 
 ##### Time Complexity: 
+
 ### 6. Heap Sort
 ##### Intuition: 
 
