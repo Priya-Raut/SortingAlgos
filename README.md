@@ -51,8 +51,15 @@ O(n^2)
 
 ### 4. Merge Sort
 ##### Intuition: 
+**Recursively split the array into half, untill it can't split further (only one element remains).
+Then take left array and right array and merge them.**
+Two steps:
+1. Divide/Split: Takes 2 * O(n/2) time.
+2. Conquer/Merge: Equivalent to merging two sorted arrays. Takes O(n) time.
+Recurrence relation: O(n) = 2 * O(n/2) + O(n)
 
 ##### Time Complexity: 
+O(nlogn)
 
 ### 5. Quick Sort
 ##### Intuition: 
